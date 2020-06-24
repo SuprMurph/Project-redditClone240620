@@ -1,3 +1,7 @@
-.mainPage {
-    background-color: grey;
+body {
+    background-color: rgb(231, 244, 252); /* this hex code is the closest I could get to reddit grey */
+}
+
+h1 {
+    color: honeydew;
 }

@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 
-App = () => {
+const App = () => {
   return (
     <React.Fragment className='mainPage'>
       <h1>Hello World</h1>
