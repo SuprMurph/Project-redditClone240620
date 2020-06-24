@@ -5,8 +5,8 @@ import Navbar from './components/Navbar.js';
 const App = () => {
   return (
     <React.Fragment className='mainPage'>
-      <h1>Hello World</h1>
       <Navbar/>
+      <h1>Hello World</h1>
     </React.Fragment>
   );
 }
