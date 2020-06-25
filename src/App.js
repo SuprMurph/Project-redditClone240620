@@ -1,7 +1,8 @@
 import React from 'react';
 import './App.css';
-import Navbar from './components/Navbar.js';
+import Navbar from './components/Navbar';
 import Newscard from './components/NewsCard';
+import MiniNav from './components/MiniNav'
 
 
 const App = () => {
@@ -10,15 +11,18 @@ const App = () => {
       <Navbar/>
       
       <div id='trendingToday'>
-        
         <h4>Trending today:</h4>
-
         <div className='newsCards'>
           <Newscard titleText="Trending Item 1" cardText="Here is some text about trending item 1"/>
           <Newscard titleText="Trending Item 2" cardText="Here is some text about trending item 2"/>
           <Newscard titleText="Trending Item 3" cardText="Here is some text about trending item 3"/>
           <Newscard titleText="Trending Item 4" cardText="Here is some text about trending item 4"/>
         </div>
+      </div>
+
+      <div id='popPosts'>
+        <h4>Popular posts</h4>
+        <MiniNav />
       </div>
 
     </React.Fragment>
