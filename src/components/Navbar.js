@@ -1,9 +1,10 @@
 import React from 'react';
+import './Navbar.css';
 
-function Navbar() {
+const Navbar = () => {
     return (
         <div className='navbarWrapper'>
-            
+            <h1>Hello?</h1>
         </div>
     )
 }
