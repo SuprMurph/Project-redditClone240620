@@ -1,11 +1,12 @@
-import React from 'react'
+import React from 'react';
+import './NewsCard.css';
 
 const newsCard = (props) => {
     return (
         <div className='cardWrapper'>
             <div className='cardBody'>
-                <h2>{props.titleText}</h2>
-                <div>{props.cardText}</div>
+                <h2 id='cardTitle'>{props.titleText}</h2>
+                <div id='cardText'>{props.cardText}</div>
             </div>
         </div>
     )

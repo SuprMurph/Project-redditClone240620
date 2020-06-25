@@ -13,7 +13,12 @@ const App = () => {
         
         <h4>Trending today:</h4>
 
-        <Newscard titleText="Here's a Title" cardText="Here is some text"/>
+        <div className='newsCards'>
+          <Newscard titleText="Trending Item 1" cardText="Here is some text about trending item 1"/>
+          <Newscard titleText="Trending Item 2" cardText="Here is some text about trending item 2"/>
+          <Newscard titleText="Trending Item 3" cardText="Here is some text about trending item 3"/>
+          <Newscard titleText="Trending Item 4" cardText="Here is some text about trending item 4"/>
+        </div>
       </div>
 
     </React.Fragment>

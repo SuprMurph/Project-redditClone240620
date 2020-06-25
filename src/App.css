@@ -4,4 +4,14 @@ body {
     background-color: rgb(231, 244, 252); /* this hex code is the closest I could get to reddit grey */
 }
 
+#trendingToday {
+    position: absolute;
+    top: 7%;
+    justify-content: center;
+}
+
+.newsCards {
+    display: flex;
+    flex-direction: row;
+}
 

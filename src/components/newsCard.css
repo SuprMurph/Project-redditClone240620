@@ -1,11 +1,11 @@
-.cardWrapper {
-    display: block;
-    height: 100px;
-    width: 175px;
-    background-color: white;
+.cardBody {
+    display: flex;
+    flex-direction: column;
+    width: 209px;
+    height: 185px;
     border: 1px solid white;
+    background-color: white;
+    border-radius: 5%;
+    margin: 10px;
 }
 
-.cardBody {
-    
-}
