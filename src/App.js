@@ -2,7 +2,12 @@ import React from 'react';
 import './App.css';
 import Navbar from './components/Navbar';
 import Newscard from './components/NewsCard';
-import MiniNav from './components/MiniNav'
+import MiniNav from './components/MiniNav';
+import SubReddit from "./components/SubRedditPage/SubReddit";
+import "./styles.css";
+
+
+
 
 
 const App = () => {
@@ -27,6 +32,9 @@ const App = () => {
       </div>
       
       <MiniNav />
+      <div className="App">
+      <SubReddit />
+    </div>
 
     </React.Fragment>
   );
