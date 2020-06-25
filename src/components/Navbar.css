@@ -1,6 +1,8 @@
 .navbarWrapper {
-    margin-top: 0px;
-    width: 100vw;
-    height: 50px;
-    background-color: black;
+    position: fixed;
+    overflow: hidden;
+    top: 0;
+    width: 100%;
+    height: 60px;
+    background-color: white;
 }
