@@ -1,8 +1,10 @@
 body {
-    margin: 0px;
+    margin: 0;
     background-color: rgb(231, 244, 252); /* this hex code is the closest I could get to reddit grey */
 }
 
-h1 {
-    color: honeydew;
+#trendingTitle {
+    display: inline-block;
+    position: fixed;
+    top: 7%;
 }
