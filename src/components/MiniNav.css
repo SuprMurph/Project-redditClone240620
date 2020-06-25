@@ -1,6 +1,8 @@
 .miniNavBody {
     height: 50px;
     width: 300px;
+    border-radius: 5%;
+    border: solid 1px white;
     background-color: white;
     lex-flow: row nowrap;
     height: 56px;
