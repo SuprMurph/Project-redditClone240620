@@ -23,7 +23,6 @@ body {
     display: flex;
     flex-direction: row; 
     min-width: 70%;
-    margin-left: 
 }
 
 #popPosts {
@@ -31,7 +30,6 @@ body {
 }
 
 .miniNavWrapper {
-    margin-right: auto;
     margin-left: 1%;
     width: 80%;
 }

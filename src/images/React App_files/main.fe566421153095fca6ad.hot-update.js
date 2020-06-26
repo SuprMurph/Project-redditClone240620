@@ -1,0 +1,22 @@
+webpackHotUpdate("main",{
+
+/***/ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/styles.css":
+/*!***************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js??ref--6-oneOf-3-1!./node_modules/postcss-loader/src??postcss!./src/styles.css ***!
+  \***************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+// Imports
+var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
+exports = ___CSS_LOADER_API_IMPORT___(false);
+// Module
+exports.push([module.i, ".App {\r\n  font-family: sans-serif;\r\n  text-align: center;\r\n}\r\nbody {\r\n  margin: 0;\r\n  background: #dae0e6;\r\n}\r\n#heading {\r\n  margin: 0;\r\n  text-align: left;\r\n  padding: 5px;\r\n  background: white;\r\n  font-size: 30px;\r\n}\r\n#heading input {\r\n  position: absolute;\r\n  left: 35%;\r\n  width: 30%;\r\n  height: 20px;\r\n  padding: 5px 10px;\r\n  border-radius: 4px;\r\n  border: 1px solid lightgrey;\r\n}\r\n#logo {\r\n  height: 30px;\r\n  margin-right: 6px;\r\n  border-radius: 50%;\r\n  vertical-align: bottom;\r\n}\r\n\r\n.post-head {\r\n  text-align: left;\r\n  margin: 2% 6%;\r\n  width: 53%;\r\n  border-bottom: 2px solid grey;\r\n}\r\n.Post-List {\r\n  display: flex;\r\n  min-width: 70%;\r\n  flex-direction: column;\r\n  align-items: flex-start;\r\n}\r\n.post {\r\n  width: 85%;\r\n  min-height: 80px;\r\n  display: flex;\r\n  margin: 2%;\r\n  border-radius: 4px;\r\n  background-color: white;\r\n  border: 1px solid lightgrey;\r\n}\r\n.post:hover {\r\n  border: 1px solid grey;\r\n}\r\n.post-user {\r\n  margin-top: 3px;\r\n  margin-left: 1%;\r\n  font-size: 10px;\r\n  color: grey;\r\n  text-align: left;\r\n}\r\n.post-text {\r\n  margin: 1% 1%;\r\n  text-align: left;\r\n  overflow-wrap: break-word;\r\n}\r\n.votes {\r\n  background-color: rgb(230, 230, 230);\r\n  display: flex;\r\n  flex-direction: column;\r\n  justify-content: flex-start;\r\n  text-align: center;\r\n  padding: 5px;\r\n  border-radius: 4px 0 0 4px;\r\n}\r\n\r\n.votes p {\r\n  margin: 0;\r\n  font-weight: 600;\r\n}\r\n\r\n.votes img {\r\n  height: 10px;\r\n  padding: 5px;\r\n  text-align: center;\r\n}\r\n.upvote:hover {\r\n  background-color: #fc4103;\r\n  border-radius: 3px;\r\n}\r\n.downvote:hover {\r\n  background-color: #0079d3;\r\n  border-radius: 3px;\r\n}\r\n\r\n.comment {\r\n  width: 80%;\r\n}\r\n.post-right {\r\n  display: flex;\r\n  flex-direction: column;\r\n  justify-content: space-between;\r\n  width: 90%;\r\n}\r\n.comment-head {\r\n  text-align: left;\r\n  align-self: flex-end;\r\n  margin-right: 10px;\r\n  font-size: 13px;\r\n  color: grey;\r\n}\r\n.sub-info {\r\n  height: 250px;\r\n  width: 30%;\r\n  margin-top: 8px;\r\n  border-radius: 5px;\r\n  background-color: white;\r\n  box-shadow: 1px 2px 7px rgba(50, 50, 50, 0.75);\r\n}\r\n.sub-info h4 {\r\n  margin: 0;\r\n  padding: 5%;\r\n  border-radius: 5px 5px 0 0;\r\n\r\n  color: white;\r\n  background-image: url(\"https://styles.redditmedia.com/t5_2yuqy/styles/bannerBackgroundImage_7yjisz96x7921.jpg?format=pjpg&s=e2cd891acccd266b5d86b452cdf9e49894ad44c9\");\r\n}\r\n\r\n.sub-info p {\r\n  padding: 5px;\r\n  overflow-wrap: break-word;\r\n}\r\n.main-wrapper {\r\n  display: flex;\r\n  margin-left: 5%;\r\n  margin-right: 5%;\r\n  justify-content: space-around;\r\n}\r\n\r\n.lowerBar {\r\n  display: flex;\r\n  margin: 3px 1%;\r\n}\r\nol {\r\n  list-style-position:inside;\r\n  margin:0;\r\n  padding:0;\r\n}\r\n\r\nli {\r\n  border:1px solid royalblue;\r\n  margin:5px 0;\r\n  border-left:0px;\r\n  border-right:0px;\r\n  border-top:solid grey 1px;\r\n  border-bottom: 0px;\r\n}\r\n#top-li{\r\nborder-top:0px;\r\n}\r\n#view-all{\r\n  border: solid 1px white;\r\n  border-radius: 5px;\r\n  color: white;\r\n  background-color: rgb(51, 116, 212);\r\n\r\n}\r\n.bottom-buttons{\r\n  display: flex;\r\n  flex-direction: row;\r\n  border: solid 1px white;\r\n  border-radius: 5px;\r\n}\r\n.list-image {\r\n  border-radius: 50%;\r\n  width:10px;\r\n  height: 10px;\r\n}", ""]);
+// Exports
+module.exports = exports;
+
+
+/***/ })
+
+})
+//# sourceMappingURL=main.fe566421153095fca6ad.hot-update.js.map

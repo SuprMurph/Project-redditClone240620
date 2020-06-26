@@ -28,7 +28,7 @@ class Post extends React.Component {
         </div>
 
         <div className="post-right">
-          <div className="post-user">Posted by u/{this.props.name} <button> +Join</button></div>
+          <div className="post-user"><p id='userTag'>Posted by u/{this.props.name}</p><button id='joinBtn'>+Join</button></div>
           <div className="post-text">{this.props.text}</div>
           <img clasName="post-image" src={this.props.image}/ >
           <div className="lowerBar">

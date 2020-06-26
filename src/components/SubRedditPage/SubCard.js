@@ -13,14 +13,16 @@ class SubCard extends React.Component {
 
         </ol>
      <a> <button id="view-all"> VIEW ALL</button></a>
-     <div className="botton-buttons">
+     <div className="bottomBtns">
+      <button>Sports</button>
+      <button>News</button>
+      <button>Gaming</button>
+      <button>Aww</button>
+     </div> 
   </div>
-  <a><button >Sports</button></a>  
-  <a><button >News</button></a>
-  <a><button >Gaming</button></a>
-  <a><button >Aww</button></a>
+  
 
-      </div>
+      
     );
   }
 }
