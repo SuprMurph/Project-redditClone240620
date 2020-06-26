@@ -7,9 +7,6 @@ import SubReddit from "./components/SubRedditPage/SubReddit";
 import "./styles.css";
 
 
-
-
-
 const App = () => {
   return (
     <React.Fragment className='mainPage'>
