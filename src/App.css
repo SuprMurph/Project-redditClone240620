@@ -1,3 +1,7 @@
+* {
+    font-family: sans-serif;
+}
+
 body {
     overflow: scroll;
     margin: 0;
@@ -8,25 +12,27 @@ body {
     display: flex;
     flex-direction: column;
     margin-top: 60px;
+    margin-right: 5%;
+    margin-left: 5%;
 }
 
 #trendingToday {
-    padding-left: 60px;
+   
 }
 
 .newsCards {
     display: flex;
-    flex-direction: row;
-    padding-right: 55px;
-    padding-left: 55px;
+    flex-direction: row; 
+    min-width: 70%;
 }
 
 #popPosts {
-    margin-left: 60px;
+   
 }
 
 .miniNavWrapper {
-    margin-left: 60px;
+    
+    width: 85%;
 }
 
 

@@ -9,3 +9,23 @@
     margin: 5px;
 }
 
+.innerText {
+    margin-top: 45%;
+    margin-bottom: 1%;
+    align-self: flex-end;
+}
+
+#cardTitle {
+    font-size: 20px;
+    margin: 2% 2%;
+    text-align: left;
+    overflow-wrap: break-word;
+}
+
+#cardText {
+    font-size: 12px;
+    margin: 1% 1%;
+    text-align: left;
+    overflow: hidden;
+
+}

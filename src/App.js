@@ -5,6 +5,10 @@ import Newscard from './components/NewsCard';
 import MiniNav from './components/MiniNav';
 import SubReddit from "./components/SubRedditPage/SubReddit";
 import "./styles.css";
+import BlackBoard from "./images/blackBoard.jpg";
+import CatsPictures from "./images/catsPicture.jpg";
+import HobbsShaw from "./images/hobbsShaw.jpg";
+import Protest from "./images/protest.jpg";
 
 
 const App = () => {
@@ -18,10 +22,10 @@ const App = () => {
       </div>
 
       <div className='newsCards'>
-        <Newscard titleText="Trending Item 1" cardText="Here is some text about trending item 1"/>
-        <Newscard titleText="Trending Item 2" cardText="Here is some text about trending item 2"/>
-        <Newscard titleText="Trending Item 3" cardText="Here is some text about trending item 3"/>
-        <Newscard titleText="Trending Item 4" cardText="Here is some text about trending item 4"/>
+        <Newscard bgImg={HobbsShaw} titleText="Hobbs and Shaw" cardText="Why does the Fast and Furious fanchise need this?..."/>
+        <Newscard bgImg={BlackBoard} titleText="Black Boards" cardText="Are Black boards making a comeback?..."/>
+        <Newscard bgImg={CatsPictures} titleText="Cats: The Movie" cardText="Someone in Hoolywood thought they had a great idea..."/>
+        <Newscard bgImg={Protest} titleText="Protests" cardText="People are protesting for multiple reasons across the world..."/>
       </div>
       
       <div id='popPosts'>
