@@ -4,41 +4,42 @@
 
 body {
     overflow: scroll;
-    margin: 0;
     background-color: rgb(231, 244, 252); /* this hex code is the closest I could get to reddit grey */
 }
 
 .topOfPage {
     display: flex;
     flex-direction: column;
-    margin-top: 60px;
+    margin-top: 50px;
     margin-right: 5%;
-    margin-left: 5%;
+    margin-left: 6%;
 }
 
 #trendingToday {
-   
+    margin-bottom: 0px;
 }
 
 .newsCards {
     display: flex;
     flex-direction: row; 
     min-width: 70%;
+    margin-left: 
 }
 
 #popPosts {
-   
+ margin-left: 1%;
 }
 
 .miniNavWrapper {
-    
-    width: 85%;
+    margin-right: auto;
+    margin-left: 1%;
+    width: 80%;
 }
 
 
 
 .App {
-    margin-top: 40px;
+    margin-top: 20px;
 }
 
 

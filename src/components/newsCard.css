@@ -1,12 +1,19 @@
 .cardBody {
     display: flex;
     flex-direction: column;
-    width: 215px;
+    width: 220px;
     height: 185px;
     border: 1px solid white;
     background-color: white;
     border-radius: 5%;
     margin: 5px;
+}
+
+#blackDrop {
+    border-radius: 5%;
+    width: 220px;
+    height: 185px;
+    background-color: rgba(0, 0, 0, 0.274); 
 }
 
 .innerText {
@@ -20,6 +27,7 @@
     margin: 2% 2%;
     text-align: left;
     overflow-wrap: break-word;
+    color: white;
 }
 
 #cardText {
@@ -27,5 +35,5 @@
     margin: 1% 1%;
     text-align: left;
     overflow: hidden;
-
+    color: white;
 }
