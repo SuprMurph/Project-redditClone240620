@@ -28,8 +28,9 @@ class Post extends React.Component {
         </div>
 
         <div className="post-right">
-          <div className="post-user">Posted by u/{this.props.name}</div>
+          <div className="post-user">Posted by u/{this.props.name} <button> +Join</button></div>
           <div className="post-text">{this.props.text}</div>
+          <img clasName="post-image" src={this.props.image}/ >
           <div className="lowerBar">
             <div className="comment-head">4 Comments</div>
             <div className="comment-head">Share</div>
@@ -37,7 +38,7 @@ class Post extends React.Component {
           </div>
         </div>
       </div>
-      );
+    );
   }
 }
 

@@ -7,13 +7,12 @@ class SubReddit extends React.Component {
   render() {
     return (
       <div className="SubReddit">
-        <h2 className="post-head"> Posts</h2>
         <div className="main-wrapper">
           <div className="Post-List">
-            <Post name="jon_snow" text="I know nothing" />
-            <Post name="lolipop" text="Check this out!" />
-            <Post name="van_halen" text="Jump" />
-            <Post name="prince" text="Gentlemen, let's broaden our minds!" />
+            <Post name="jon_snow" text="Nice Quote"  image="https://i.redd.it/08ndaio276751.jpg"/>
+            <Post name="lolipop" text="Check this out!" image="https://i.redd.it/479p6n7mp3651.jpg" />
+            <Post name="van_halen" text="Scary story"  image=" https://i.redd.it/kkjuy0i28v651.jpg"/>
+            <Post name="prince" text= "Come on Jim"image="https://www.reddit.com/r/DunderMifflin/comments/hcdor8/cmon_jim/" />
           </div>
           <SubCard />
         </div>
