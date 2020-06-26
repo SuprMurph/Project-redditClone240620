@@ -31,7 +31,7 @@ class Post extends React.Component {
           <div className="post-user">Posted by u/{this.props.name} <button> +Join</button></div>
           <div className="post-text">{this.props.text}</div>
           <img clasName="post-image" src={this.props.image}/ >
-          <div className="lowerBar">
+          <div className="lowerBar"  >
             <div className="comment-head">4 Comments</div>
             <div className="comment-head">Share</div>
             <div className="comment-head">Save</div>
@@ -43,3 +43,4 @@ class Post extends React.Component {
 }
 
 export default Post;
+
