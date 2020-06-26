@@ -4,20 +4,35 @@ body {
     background-color: rgb(231, 244, 252); /* this hex code is the closest I could get to reddit grey */
 }
 
+.topOfPage {
+    display: flex;
+    flex-direction: column;
+    margin-top: 60px;
+}
+
 #trendingToday {
-    position: absolute;
-    top: 7%;
-    justify-content: center;
+    padding-left: 60px;
 }
 
 .newsCards {
-    justify-content: center;
     display: flex;
     flex-direction: row;
+    padding-right: 55px;
+    padding-left: 55px;
 }
 
 #popPosts {
+    margin-left: 60px;
+}
 
+.miniNavWrapper {
+    margin-left: 60px;
+}
+
+
+
+.App {
+    margin-top: 40px;
 }
 
 

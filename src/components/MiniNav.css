@@ -1,4 +1,6 @@
 .miniNavBody {
+    display: flex;
+    align-items: center;
     height: 50px;
     width: 300px;
     border-radius: 5%;
@@ -7,3 +9,24 @@
     lex-flow: row nowrap;
     height: 56px;
 }
+
+#hotBtn {
+
+}
+
+#ukBtn {
+
+}
+
+#newBtn{
+
+}
+
+#settingsBtn{
+
+}
+
+#layoutBtn{
+
+}
+
