@@ -30,9 +30,9 @@
 #login {
     height: 35px;
     width: 90px;
-    color: blue;
+    color: rgb(51, 116, 212);
     background-color: white;
-    border: 1px blue solid;
+    border: 2px solid rgb(51, 116, 212);
     border-radius: 5%;
     margin: 5px;
 }
@@ -41,12 +41,28 @@
     height: 35px;
     width: 90px;
     color: white;
-    background-color: blue;
-    border: 1px blue solid;
+    background-color:rgb(51, 116, 212);
+    border: 1px solid rgb(51, 116, 212);;
     border-radius: 5%;
     margin: 5px;
 }
 
-#rightDropDown {
-    
+#user {
+    height: 20px;
+    width: 20px;
+}
+
+#down {
+    height: 15px;
+    width: 15px;
+}
+
+#rightDropdown {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+}
+
+#spacer {
+    display: inline-block;
 }

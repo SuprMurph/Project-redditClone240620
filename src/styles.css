@@ -116,18 +116,18 @@ body {
   color: grey;
 }
 .sub-info {
-  height: 250px;
+  height: 300px;
   width: 30%;
   margin-top: 8px;
   border-radius: 5px;
   background-color: white;
   box-shadow: 1px 2px 7px rgba(50, 50, 50, 0.75);
-}
+  }
+
 .sub-info h4 {
   margin: 0;
   padding: 5%;
   border-radius: 5px 5px 0 0;
-
   color: white;
   background-image: url("https://styles.redditmedia.com/t5_2yuqy/styles/bannerBackgroundImage_7yjisz96x7921.jpg?format=pjpg&s=e2cd891acccd266b5d86b452cdf9e49894ad44c9");
 }
@@ -147,19 +147,25 @@ body {
   display: flex;
   margin: 3px 1%;
 }
+
 ol {
   list-style-position:inside;
   margin:0;
   padding:0;
+  list-style-type: none;
 }
 
 li {
-  border:1px solid royalblue;
+  text-align: left;
   margin:5px 0;
+  margin-left: 1%;
   border-left:0px;
   border-right:0px;
-  border-top:solid grey 1px;
+  border-top:solid #dae0e6;
   border-bottom: 0px;
+  border-width: 0.9px;
+  padding-top:5px;
+  padding-bottom:6px;
 }
 
 #top-li{
