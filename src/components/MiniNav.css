@@ -1,32 +1,82 @@
 .miniNavBody {
     display: flex;
+    padding-left: 2%;
     align-items: center;
-    height: 50px;
-    width: 300px;
-    border-radius: 5%;
+    justify-content: left;
+    height: 40px;
+    width: 80%;
+    border-radius: 5px;
     border: solid 1px white;
     background-color: white;
     lex-flow: row nowrap;
     height: 56px;
 }
 
-#hotBtn {
+.btn {
+    margin-left: 2.5px;
+    margin-right: 2.5px;
+    justify-content: center;
+    font-weight: bold;
+    height: 32px;
+    width: 45px;
+    color: rgba(0, 0, 0, 0.493);
+    background-color: white;
+}
 
+.btn:hover {
+    background-color: rgba(216, 213, 213, 0.253);
+    color: black;
+}
+
+#hotBtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid 1px white;
+    border-radius: 20px;
+    background-color: rgba(216, 213, 213, 0.253);
+    color: rgb(51, 116, 212);
 }
 
 #ukBtn {
-
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: solid 1px rgba(255, 255, 255, 0.979);
+    border-radius: 20px;
 }
 
 #newBtn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: solid 1px white;
+    border-radius: 20px;
+}
 
+#topBtn{
+    display: flex;
+    align-items: center;
+    border: solid 1px white;
+    border-radius: 20px;
 }
 
 #settingsBtn{
-
+    display: flex;
+    align-items: center;
+    border: solid 1px white;
+    border-radius: 20px;
 }
 
 #layoutBtn{
-
+    display: flex;
+    justify-self: left;
+    align-items: flex-end;
+    border: solid 1px white;
+    border-radius: 20px;
+    padding-top: 2%;
+    margin-left: 50%;
+    font-size: 30px;
+    color: rgb(51, 116, 212);
 }
 
