@@ -37,11 +37,8 @@ class Post extends React.Component {
           </div>
         </div>
       </div>
-<<<<<<< HEAD
       );
-=======
-    );
->>>>>>> 942bfefdf2ede1ef5b9f30dbb3ff1cf674a23c08
+  
   }
 }
 
